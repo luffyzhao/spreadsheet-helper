@@ -1,0 +1,18 @@
+{
+    "name": "luffyzhao/spreadsheet-helper",
+    "description": "laravel admin auth",
+    "authors": [
+        {
+            "name": "Luffy Zhao",
+            "email": "luffyzhao@vip.126.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "LSpreadsheet\\": "src/"
+        }
+    }
+}
