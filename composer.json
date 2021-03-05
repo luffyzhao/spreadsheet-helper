@@ -1,18 +1,18 @@
 {
-    "name": "luffyzhao/spreadsheet-helper",
-    "description": "laravel admin auth",
-    "authors": [
-        {
-            "name": "Luffy Zhao",
-            "email": "luffyzhao@vip.126.com"
-        }
-    ],
-    "require": {
-        "phpoffice/phpspreadsheet": "^1.16"
-    },
-    "autoload": {
-        "psr-4": {
-            "LSpreadsheet\\": "src/"
-        }
+  "name": "luffyzhao/spreadsheet-helper",
+  "description": "spreadsheet",
+  "authors": [
+    {
+      "name": "Luffy Zhao",
+      "email": "luffyzhao@vip.126.com"
     }
+  ],
+  "require": {
+    "phpoffice/phpspreadsheet": ">=1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "LSpreadsheet\\": "src/"
+    }
+  }
 }
