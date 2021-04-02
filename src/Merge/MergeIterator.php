@@ -33,7 +33,7 @@ class MergeIterator implements Iterator
      *
      * @var int
      */
-    private $endRow = 1;
+    public $endRow = 1;
 
     /**
      * MergeIterator constructor.
