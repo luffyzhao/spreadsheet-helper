@@ -68,10 +68,15 @@ class RowHandle
     {
         $endRow = $this->startRow;
         $only = $this->worksheet->getCell($this->only . $endRow)->getValue();
-
+        if(empty($only)){
+            return;
+        }
         while (true) {
             ++$endRow;
             $endOnly = $this->worksheet->getCell($this->only . $endRow)->getValue();
+            if(empty($endOnly)){
+                break;
+            }
             if ($endOnly !== $only) {
                 break;
             }
